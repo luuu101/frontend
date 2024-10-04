@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End vs Back-End</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .main-section {
+            background-color: #ffeb3b;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 2px solid #000; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .main-section .text-content {
+            flex: 3; 
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .main-section h2 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .main-section p {
+            font-size: 14px;
+        }
+
+        .image-section img {
+            width: 100%;
+            max-width: 150px;
+        }
+
+        .image-section {
+            flex: 1; 
+            text-align: center;
+        }
+
+        .table-section {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+       
+        .table-dark-bordered {
+            border: 2px solid #000; 
+        }
+
+        .table-dark-bordered th,
+        .table-dark-bordered td {
+            border: 2px solid #000; 
+        }
+
+        
+        .table-split {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .table-split .table-column {
+            flex: 1;
+            padding: 10px;
+            border: 2px solid #000; 
+            margin: 5px;
+        }
+
+        .actions-buttons .btn {
+            margin-right: 5px;
+        }
+
+        .author-image {
+            max-width: 100px;
+        }
+        
+        .side-image {
+            width: 100%;
+            max-width: 150px;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LENGUAJES DE PROGRAMACION</a>
+        </div>
+    </nav>
+
+    
+    <div class="container mt-4">
+
+        
+        <div class="row main-section">
+            <div class="text-content">
+                <div class="table-column">
+                    <h2>Front-End</h2>
+                    <p>
+                        El Front-End se encarga de la interacción directa con los usuarios, y se centra en el diseño y la experiencia visual. Usa lenguajes como HTML, CSS y JavaScript.
+                    </p>
+                </div>
+                <div class="table-column">
+                    <h2>Back-End</h2>
+                    <p>
+                        El Back-End gestiona la lógica del servidor y la base de datos. Funciona con lenguajes como Python, Ruby, Java, PHP, y frameworks como Node.js.
+                    </p>
+                </div>
+                <div class="table-column">
+                    <h2>Full-Stack</h2>
+                    <p>
+                        Un desarrollador Full-Stack puede trabajar tanto en Front-End como en Back-End, siendo capaz de gestionar proyectos de principio a fin.
+                    </p>
+                </div>
+            </div>
+
+            
+            <div class="image-section">
+                <img src="IMG/images.png" alt="Imagen Desarrollador">
+            </div>
+        </div>
+
+        
+        <div class="row table-section">
+            <div class="col-md-2 text-center">
+                
+            </div>
+            <div class="col-md-8">
+                <table class="table table-dark-bordered">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Lenguaje</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Python</td>
+                            <td class="actions-buttons">
+                                <button class="btn btn-primary btn-sm">Añadir</button>
+                                <button class="btn btn-warning btn-sm">Editar</button>
+                                <button class="btn btn-danger btn-sm">Borrar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Java</td>
+                            <td class="actions-buttons">
+                                <button class="btn btn-primary btn-sm">Añadir</button>
+                                <button class="btn btn-warning btn-sm">Editar</button>
+                                <button class="btn btn-danger btn-sm">Borrar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>PHP</td>
+                            <td class="actions-buttons">
+                                <button class="btn btn-primary btn-sm">Añadir</button>
+                                <button class="btn btn-warning btn-sm">Editar</button>
+                                <button class="btn btn-danger btn-sm">Borrar</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-2 text-center">
+                <img src="IMG/mejores-lenguajes-de-programacion-2018.jpg" alt="Imagen Lateral Derecha" class="side-image"> 
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="footer text-center mt-4">
+        <
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
